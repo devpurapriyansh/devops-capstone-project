@@ -7,10 +7,13 @@ Flask==2.1.2
 Flask-SQLAlchemy==2.5.1
 psycopg2-binary==2.9.3
 python-dotenv==0.20.0
+Flask-Talisman
+Flask-Cors
 
 # Runtime dependencies
 gunicorn==20.1.0
 honcho==1.1.0
+
 
 # Code quality
 pylint==2.14.0
@@ -29,5 +32,3 @@ coverage==6.3.2
 httpie==3.2.1
 
 
-Flask-Talisman
-Flask-Cors
